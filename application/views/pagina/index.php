@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="icon" href="image/xfavicon.png.pagespeed.ic.6C2XCbExx3.webp" type="image/png">
-      <title>Royal Hotel</title>
+      <title>Gran Hotel Huatulco</title>
       <link rel="stylesheet" href="<?=base_url()?>assets/css/LvBJWm7iXD.css" />
       <link rel="stylesheet" href="<?=base_url()?>assets/css/A.style.css+responsive.css,Mcc.FaCKucbutY.css.pagespeed.cf.ZSOH81SeOh.css" />
    </head>
@@ -50,9 +50,9 @@
             <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
             <div class="container">
                <div class="banner_content text-center">
-                  <h6>Away from monotonous life</h6>
-                  <h2>Relax Your Mind</h2>
-                  <p>If you are looking at blank cassettes on the web, you may be very confused at the<br> difference in price. You may see some for as low as $.17 each.</p>
+                  <h6>LEJOS DE LA VIDA MONÓTONA</h6>
+                  <h2>Relaja tu mente</h2>
+                  <p>Déjese consentir y disfrute de un paraíso, somos un espacio recreativo pensado para sus hijos y familiares para una estancia confortable.</p>
                   <a href="#" class="btn theme_btn button_hover">Get Started</a>
                </div>
             </div>
@@ -61,7 +61,7 @@
             <div class="container">
                <div class="hotel_booking_table">
                   <div class="col-md-3">
-                     <h2>Book<br> Your Room</h2>
+                     <h2>Reserve<br> su habitacion</h2>
                   </div>
                   <div class="col-md-9">
                      <div class="boking_table">
@@ -116,7 +116,7 @@
                                        <option value="3">Room 03</option>
                                     </select>
                                  </div>
-                                 <a class="book_now_btn button_hover" href="#">Book Now</a>
+                                 <a class="book_now_btn button_hover" href="#">Reservar ahora</a>
                               </div>
                            </div>
                         </div>
@@ -129,56 +129,56 @@
       <section class="accomodation_area section_gap">
          <div class="container">
             <div class="section_title text-center">
-               <h2 class="title_color">Hotel Accomodation</h2>
-               <p>We all live in an age that belongs to the young at heart. Life that is becoming extremely fast, </p>
+               <h2 class="title_color">Habitaciones</h2>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores esse minus fugit maiores veritatis</p>
             </div>
             <div class="row mb_30">
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom1.jpg" alt="" data-pagespeed-url-hash="544703198" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                        <a href="#" class="btn theme_btn button_hover">Book Now</a>
+                        <a href="#" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
-                        <h4 class="sec_h4">Double Deluxe Room</h4>
+                        <h4 class="sec_h4">Lorem ipsum</h4>
                      </a>
-                     <h5>$250<small>/night</small></h5>
+                     <h5>$250<small>/noche</small></h5>
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom2.jpg" alt="" data-pagespeed-url-hash="839203119" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                        <a href="#" class="btn theme_btn button_hover">Book Now</a>
+                        <a href="#" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
-                        <h4 class="sec_h4">Single Deluxe Room</h4>
+                        <h4 class="sec_h4">Lorem ipsum</h4>
                      </a>
-                     <h5>$200<small>/night</small></h5>
+                     <h5>$200<small>/noche</small></h5>
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom3.jpg" alt="" data-pagespeed-url-hash="1133703040" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                        <a href="#" class="btn theme_btn button_hover">Book Now</a>
+                        <a href="#" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
-                        <h4 class="sec_h4">Honeymoon Suit</h4>
+                        <h4 class="sec_h4">Lorem ipsum</h4>
                      </a>
-                     <h5>$750<small>/night</small></h5>
+                     <h5>$750<small>/noche</small></h5>
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom4.jpg" alt="" data-pagespeed-url-hash="1428202961" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                        <a href="#" class="btn theme_btn button_hover">Book Now</a>
+                        <a href="#" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
-                        <h4 class="sec_h4">Economy Double</h4>
+                        <h4 class="sec_h4">Lorem ipsum</h4>
                      </a>
-                     <h5>$200<small>/night</small></h5>
+                     <h5>$200<small>/noche</small></h5>
                   </div>
                </div>
             </div>
@@ -188,37 +188,37 @@
          <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background=""></div>
          <div class="container">
             <div class="section_title text-center">
-               <h2 class="title_w">Royal Facilities</h2>
-               <p>Who are in extremely love with eco friendly system.</p>
+               <h2 class="title_w">Servicios</h2>
+               <p>Disfruta de todos los servicios que tenemos para ti.</p>
             </div>
             <div class="row mb_30">
                <div class="col-lg-4 col-md-6">
                   <div class="facilities_item">
-                     <h4 class="sec_h4"><i class="lnr lnr-dinner"></i>Restaurant</h4>
+                     <h4 class="sec_h4"><i class="lnr lnr-dinner"></i>Restaurante</h4>
                      <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-6">
                   <div class="facilities_item">
-                     <h4 class="sec_h4"><i class="lnr lnr-bicycle"></i>Sports CLub</h4>
+                     <h4 class="sec_h4"><i class="lnr lnr-bicycle"></i>Sports club</h4>
                      <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-6">
                   <div class="facilities_item">
-                     <h4 class="sec_h4"><i class="lnr lnr-shirt"></i>Swimming Pool</h4>
+                     <h4 class="sec_h4"><i class="lnr lnr-shirt"></i>Piscina</h4>
                      <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-6">
                   <div class="facilities_item">
-                     <h4 class="sec_h4"><i class="lnr lnr-car"></i>Rent a Car</h4>
+                     <h4 class="sec_h4"><i class="lnr lnr-car"></i>Ranta de carro</h4>
                      <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-6">
                   <div class="facilities_item">
-                     <h4 class="sec_h4"><i class="lnr lnr-construction"></i>Gymnesium</h4>
+                     <h4 class="sec_h4"><i class="lnr lnr-construction"></i>Gimnasio</h4>
                      <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                   </div>
                </div>
@@ -236,9 +236,9 @@
             <div class="row">
                <div class="col-md-6 d_flex align-items-center">
                   <div class="about_content ">
-                     <h2 class="title title_color">About Us <br>Our History<br>Mission & Vision</h2>
+                     <h2 class="title title_color">Nosotros <br>Nuestra Historia<br>Mision & Vision</h2>
                      <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
-                     <a href="#" class="button_hover theme_btn_two">Request Custom Price</a>
+                     <!-- <a href="#" class="button_hover theme_btn_two">Request Custom Price</a> -->
                   </div>
                </div>
                <div class="col-md-6">
@@ -250,14 +250,14 @@
       <section class="testimonial_area section_gap">
          <div class="container">
             <div class="section_title text-center">
-               <h2 class="title_color">Testimonial from our Clients</h2>
-               <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from </p>
+               <h2 class="title_color">Testimonio de nuestros clientes</h2>
+               <p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Itaque, neque sapiente et consectetur a doloremque</p>
             </div>
             <div class="testimonial_slider owl-carousel">
                <div class="media testimonial_item">
                   <img class="rounded-circle" src="<?=base_url()?>assets/image/xtesttimonial-1.jpg" alt="" data-pagespeed-url-hash="3233212501" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                   <div class="media-body">
-                     <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quae saepe quam rem perspiciatis reiciendis molestias nemo in maxime enim porro officiis illum nam repudiandae asperiores vel minus. </p>
                      <a href="#">
                         <h4 class="sec_h4">Fanny Spencer</h4>
                      </a>
@@ -273,7 +273,7 @@
                <div class="media testimonial_item">
                   <img class="rounded-circle" src="<?=base_url()?>assets/image/xtesttimonial-1.jpg" alt="" data-pagespeed-url-hash="3233212501" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                   <div class="media-body">
-                     <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quae saepe quam rem perspiciatis reiciendis molestias nemo in maxime enim porro officiis illum nam repudiandae asperiores vel minus. </p>
                      <a href="#">
                         <h4 class="sec_h4">Fanny Spencer</h4>
                      </a>
@@ -289,7 +289,7 @@
                <div class="media testimonial_item">
                   <img class="rounded-circle" src="<?=base_url()?>assets/image/xtesttimonial-1.jpg" alt="" data-pagespeed-url-hash="3233212501" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                   <div class="media-body">
-                     <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quae saepe quam rem perspiciatis reiciendis molestias nemo in maxime enim porro officiis illum nam repudiandae asperiores vel minus. </p>
                      <a href="#">
                         <h4 class="sec_h4">Fanny Spencer</h4>
                      </a>
@@ -305,7 +305,7 @@
                <div class="media testimonial_item">
                   <img class="rounded-circle" src="<?=base_url()?>assets/image/xtesttimonial-1.jpg" alt="" data-pagespeed-url-hash="3233212501" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                   <div class="media-body">
-                     <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quae saepe quam rem perspiciatis reiciendis molestias nemo in maxime enim porro officiis illum nam repudiandae asperiores vel minus. </p>
                      <a href="#">
                         <h4 class="sec_h4">Fanny Spencer</h4>
                      </a>
@@ -324,8 +324,8 @@
       <section class="latest_blog_area section_gap">
          <div class="container">
             <div class="section_title text-center">
-               <h2 class="title_color">latest posts from blog</h2>
-               <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from </p>
+               <h2 class="title_color">Galeria</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quae saepe quam rem perspiciatis. </p>
             </div>
             <div class="row mb_30">
                <div class="col-lg-4 col-md-6">
@@ -341,8 +341,8 @@
                         <a href="#">
                            <h4 class="sec_h4">Low Cost Advertising</h4>
                         </a>
-                        <p>Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A farmer.</p>
-                        <h6 class="date title_color">31st January,2018</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quae saepe quam .</p>
+                        <!-- <h6 class="date title_color">31st January,2018</h6> -->
                      </div>
                   </div>
                </div>
@@ -359,8 +359,8 @@
                         <a href="#">
                            <h4 class="sec_h4">Creative Outdoor Ads</h4>
                         </a>
-                        <p>Self-doubt and fear interfere with our ability to achieve or set goals. Self-doubt and fear are</p>
-                        <h6 class="date title_color">31st January,2018</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quae saepe quam </p>
+                        <!-- <h6 class="date title_color">31st January,2018</h6> -->
                      </div>
                   </div>
                </div>
@@ -377,8 +377,8 @@
                         <a href="#">
                            <h4 class="sec_h4">It S Classified How To Utilize Free</h4>
                         </a>
-                        <p>Why do you want to motivate yourself? Actually, just answering that question fully can </p>
-                        <h6 class="date title_color">31st January,2018</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quae saepe quam </p>
+                        <!-- <h6 class="date title_color">31st January,2018</h6> -->
                      </div>
                   </div>
                </div>
@@ -390,28 +390,21 @@
             <div class="row">
                <div class="col-lg-3  col-md-6 col-sm-6">
                   <div class="single-footer-widget">
-                     <h6 class="footer_title">About Agency</h6>
-                     <p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point </p>
+                     <h6 class="footer_title">Nosotros</h6>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus laboriosam explicabo, ex! Temporibus deleniti esse quasi vero nemo fugit autem fugiat debitis sed officia illo sunt magnam saepe modi </p>
                   </div>
                </div>
                <div class="col-lg-3 col-md-6 col-sm-6">
                   <div class="single-footer-widget">
-                     <h6 class="footer_title">Navigation Links</h6>
+                     <h6 class="footer_title">Menu</h6>
                      <div class="row">
                         <div class="col-4">
                            <ul class="list_style">
-                              <li><a href="#">Home</a></li>
-                              <li><a href="#">Feature</a></li>
-                              <li><a href="#">Services</a></li>
-                              <li><a href="#">Portfolio</a></li>
-                           </ul>
-                        </div>
-                        <div class="col-4">
-                           <ul class="list_style">
-                              <li><a href="#">Team</a></li>
-                              <li><a href="#">Pricing</a></li>
-                              <li><a href="#">Blog</a></li>
-                              <li><a href="#">Contact</a></li>
+                              <li><a href="<?= base_url("inicio")?>">Inicio</a></li>
+                              <li><a href="<?= base_url("nosotros")?>">Nosotros</a></li>
+                              <li><a href="<?= base_url("alojamiento")?>">Alojamiento</a></li>
+                              <li><a href="<?= base_url("galeria")?>">Galeria</a></li>
+                              <li><a href="<?= base_url("contacto")?>">Contacto</a></li>
                            </ul>
                         </div>
                      </div>
@@ -419,8 +412,8 @@
                </div>
                <div class="col-lg-3 col-md-6 col-sm-6">
                   <div class="single-footer-widget">
-                     <h6 class="footer_title">Newsletter</h6>
-                     <p>For business professionals caught between high OEM price and mediocre print and graphic output, </p>
+                     <h6 class="footer_title">Subscribete</h6>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Quisquam quidem fugiat soluta ad </p>
                      <div id="mc_embed_signup">
                         <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" class="subscribe_form relative">
                            <div class="input-group d-flex flex-row">
@@ -451,7 +444,7 @@
             <div class="border_line"></div>
             <div class="row footer-bottom d-flex justify-content-between align-items-center">
                <p class="col-lg-8 col-sm-12 footer-text m-0">
-                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved<i class="fa fa-heart-o" aria-hidden="true"></i>
                </p>
                <div class="col-lg-4 col-sm-12 footer-social">
                   <a href="#"><i class="fa fa-facebook"></i></a>
