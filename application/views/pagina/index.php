@@ -26,7 +26,8 @@
                      
                      pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','file:///C:/Users/ELITE8000/Documents/hotel/index.html','-ilGEe-FWC',true,false,'XU42pY0JsFE');
                      //]]>
-                  </script><img src="<?= base_url("assets/image/logo_hotel.png")?>" width="100px" alt="" data-pagespeed-url-hash="2345934057" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                  </script>
+                  <img src="<?= base_url("assets/image/logo_hotel.png")?>" width="100px" alt="" data-pagespeed-url-hash="2345934057" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                </a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="icon-bar"></span>
@@ -37,7 +38,7 @@
                   <ul class="nav navbar-nav menu_nav ml-auto">
                      <li class="nav-item active"><a class="nav-link" href="<?= base_url("inicio")?>">Inicio</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url("nosotros")?>">Nosotros</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url("alojamiento")?>">Alojamiento</a></li>
+                     <!-- <li class="nav-item"><a class="nav-link" href="<?= base_url("alojamiento")?>">Alojamiento</a></li> -->
                      <li class="nav-item"><a class="nav-link" href="<?= base_url("galeria")?>">Galeria</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url("contacto")?>">Contacto</a></li>
                   </ul>
@@ -61,7 +62,7 @@
             <div class="container">
                <div class="hotel_booking_table">
                   <div class="col-md-3">
-                     <h2>Reserve<br> su habitacion</h2>
+                     <h2>Reservar<br> habitacion</h2>
                   </div>
                   <div class="col-md-9">
                      <div class="boking_table">
@@ -70,7 +71,7 @@
                               <div class="book_tabel_item">
                                  <div class="form-group">
                                     <div class='input-group date' id='datetimepicker11'>
-                                       <input type='text' class="form-control" placeholder="Arrival Date" />
+                                       <input type='text' class="form-control" placeholder="Fecha llegada" />
                                        <span class="input-group-addon">
                                        <i class="fa fa-calendar" aria-hidden="true"></i>
                                        </span>
@@ -78,7 +79,7 @@
                                  </div>
                                  <div class="form-group">
                                     <div class='input-group date' id='datetimepicker1'>
-                                       <input type='text' class="form-control" placeholder="Departure Date" />
+                                       <input type='text' class="form-control" placeholder="Fecha salida" />
                                        <span class="input-group-addon">
                                        <i class="fa fa-calendar" aria-hidden="true"></i>
                                        </span>
@@ -90,18 +91,20 @@
                               <div class="book_tabel_item">
                                  <div class="input-group">
                                     <select class="wide">
-                                       <option data-display="Adult">Adult</option>
-                                       <option value="1">Old</option>
-                                       <option value="2">Younger</option>
-                                       <option value="3">Potato</option>
+                                       <option data-display="Adultos">Adultos</option>
+                                       <option value="1">1</option>
+                                       <option value="2">2</option>
+                                       <option value="3">3</option>
+                                       <option value="4">4</option>
                                     </select>
                                  </div>
                                  <div class="input-group">
                                     <select class="wide">
-                                       <option data-display="Child">Child</option>
-                                       <option value="1">Child</option>
-                                       <option value="2">Baby</option>
-                                       <option value="3">Child</option>
+                                       <option data-display="Niños">Niños</option>
+                                       <option value="1">1</option>
+                                       <option value="2">2</option>
+                                       <option value="3">3</option>
+                                       <option value="4">4</option>
                                     </select>
                                  </div>
                               </div>
@@ -110,10 +113,11 @@
                               <div class="book_tabel_item">
                                  <div class="input-group">
                                     <select class="wide">
-                                       <option data-display="Child">Number of Rooms</option>
-                                       <option value="1">Room 01</option>
-                                       <option value="2">Room 02</option>
-                                       <option value="3">Room 03</option>
+                                       <option data-display="Numero de cuartos">Numero de cuartos</option>
+                                       <option value="1">1</option>
+                                       <option value="2">2</option>
+                                       <option value="3">3</option>
+                                       <option value="4">4</option>
                                     </select>
                                  </div>
                                  <a class="book_now_btn button_hover" href="#">Reservar ahora</a>
