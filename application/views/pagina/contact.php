@@ -85,18 +85,18 @@
                   <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate>
                      <div class="col-md-6">
                         <div class="form-group">
-                           <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                           <input type="text" class="form-control" id="name" name="name" placeholder="Escribe tu nombre">
                         </div>
                         <div class="form-group">
-                           <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                           <input type="email" class="form-control" id="email" name="email" placeholder="Escribe tu correo">
                         </div>
                         <div class="form-group">
-                           <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                           <input type="text" class="form-control" id="subject" name="subject" placeholder="Escribe tu asunto">
                         </div>
                      </div>
                      <div class="col-md-6">
                         <div class="form-group">
-                           <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+                           <textarea class="form-control" name="message" id="message" rows="1" placeholder="Escribe tu mensaje"></textarea>
                         </div>
                      </div>
                      <div class="col-md-12 text-right">
