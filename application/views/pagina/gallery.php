@@ -33,7 +33,7 @@
                      <li class="nav-item"><a class="nav-link" href="<?= base_url("nosotros")?>">Nosotros</a></li>
                      <li class="nav-item active"><a class="nav-link" href="<?= base_url("galeria")?>">Galeria</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url("contacto")?>">Contacto</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url("contacto")?>">Reservas</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url("reserva/detalles")?>">Reservas</a></li>
                   </ul>
                </div>
             </nav>

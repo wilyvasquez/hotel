@@ -15,7 +15,7 @@
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                <a class="navbar-brand logo_h" href="index.html">
-                  <img src="<?= base_url("assets/image/logo_hotel.png")?>" width="100px" alt="">
+                  <img src="<?= base_url('assets/image/logo_hotel.png')?>" width="100px" alt="">
                </a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="icon-bar"></span>
@@ -24,11 +24,11 @@
                </button>
                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                   <ul class="nav navbar-nav menu_nav ml-auto">
-                     <li class="nav-item active"><a class="nav-link" href="<?= base_url("inicio")?>">Inicio</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url("nosotros")?>">Nosotros</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url("galeria")?>">Galeria</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url("contacto")?>">Contacto</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url("contacto")?>">Reservas</a></li>
+                     <li class="nav-item active"><a class="nav-link" href="<?= base_url('inicio')?>">Inicio</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url('nosotros')?>">Nosotros</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url('galeria')?>">Galeria</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url('contacto')?>">Contacto</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url('reserva/detalles')?>">Reservas</a></li>
                   </ul>
                </div>
             </nav>
@@ -38,10 +38,10 @@
          <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background=""></div>
          <div class="container">
             <div class="page-cover text-center">
-               <h2 class="page-cover-tittle f_48">Detalles habitacion</h2>
+               <h2 class="page-cover-tittle f_48">Detalles reservas</h2>
                <ol class="breadcrumb">
                   <li><a href="index.html">Inicio</a></li>
-                  <li><a href="blog.html">habitacion</a></li>
+                  <li><a href="blog.html">Reservas</a></li>
                   <li class="active">detalles</li>
                </ol>
             </div>
@@ -53,117 +53,127 @@
                <div class="col-lg-8 posts-list">
                   <div class="single-post row">
                      <div class="col-lg-12">
-                        <div class="feature-img">
-                           <img class="img-fluid" src="<?=base_url("assets/image/facilites_bg.jpg")?>" alt="">
-                        </div>
-                     </div>
-                     <div class="col-lg-3  col-md-3">
-                        <div class="blog_info text-right">
-                           <div class="post_tag">
-                              <a href="#"><strong>Servicios Incluidos</strong></a>
-                              <!-- <a href="#">Technology,</a>
-                              <a href="#">Politics,</a>
-                              <a href="#">Lifestyle</a> -->
-                           </div>
-                           <ul class="blog_meta list_style">
-                              <li><a href="#">Wi-Fi gratuita<i class="fa fa-wifi"></i></a></li>
-                              <li><a href="#">TV por cable<i class="fa fa-share-alt"></i></a></li>
-                              <li><a href="#">Baño privado<i class="fa fa-tint"></i></a></li>
-                              <li><a href="#">Pantalla plana<i class="fa fa-tv"></i></a></li>
-                           </ul>
-                           <ul class="social-links">
-                              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="col-lg-9 col-md-9 blog_details">
-                        <h2>Lorem ipsum dolor sit amet consectetur</h2>
-                        <p class="excert">
-                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi similique sequi illo dignissimos, id laboriosam assumenda ipsum. Veritatis earum optio voluptatum iure.
-                        </p>
-                        <p>
-                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur neque aut odio sint minus assumenda libero repudiandae odit delectus fugiat ipsa, officia totam voluptatum ut harum expedita numquam illum non!
-                        </p>
-                        <p>
-                           Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Eos explicabo dolorem reprehenderit tenetur vel nihil fuga ipsam commodi inventore, ad velit asperiores sint veritatis veniam expedita ea, cumque nam eligendi?
-                        </p>
-                     </div>
-                     <div class="col-lg-12">
                         <div class="row">
                            <div class="col-4">
-                              <img class="img-fluid" src="<?= base_url("assets/image/xroom4.jpg")?>" alt="">
+                              <img class="img-fluid" src="<?= base_url('assets/image/xroom4.jpg')?>" alt="">
                            </div>
                            <div class="col-4">
-                              <img class="img-fluid" src="<?= base_url("assets/image/xroom2.jpg")?>" alt="">
+                              <img class="img-fluid" src="<?= base_url('assets/image/xroom2.jpg')?>" alt="">
                            </div>
                            <div class="col-4">
-                              <img class="img-fluid" src="<?= base_url("assets/image/xroom2.jpg")?>" alt="">
+                              <img class="img-fluid" src="<?= base_url('assets/image/xroom2.jpg')?>" alt="">
+                           </div>
+                           <div class="col-lg-12 mt-25">
+                              <p>
+                                 MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower.
+                              </p>
+                              <p>
+                                 MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower.
+                              </p>
                            </div>
                         </div>
                      </div>
+                  </div>
+                  <div class="single-post row">
+                     <img src="<?= base_url()?>assets/image/mastercard.png" style="width:60px" alt="">
+                     <img src="<?= base_url()?>assets/image/visa.png" style="width:60px;margin-left: 5px;" alt="">
+                     <img src="<?= base_url()?>assets/image/paypal.png" style="width:60px;margin-left: 5px;" alt="">
+                  </div>
+                  <div class="comment-form">
+                     <h4>Contactanos para mayor informacion</h4>
+                     <form>
+                        <div class="form-group form-inline">
+                           <div class="form-group col-lg-6 col-md-6 name">
+                              <input type="text" class="form-control" id="name" placeholder="Enter Name" >
+                           </div>
+                           <div class="form-group col-lg-6 col-md-6 email">
+                              <input type="email" class="form-control" id="email" placeholder="Enter email address">
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <input type="text" class="form-control" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                           <textarea class="form-control mb-10" rows="5" name="message" placeholder="Messege" required></textarea>
+                        </div>
+                        <a href="#" class="primary-btn button_hover">Enviar</a>
+                     </form>
                   </div>
                </div>
                <div class="col-lg-4">
                   <div class="blog_right_sidebar">
                      <aside class="single_sidebar_widget author_widget">
-                        <h4>Lorem ipsum dolor</h4><br>
-                        <p style="color:white;background-color: #248116;border-radius:8px;padding: 5px">1 habitacion disponible</p>
-                        <div class="br"></div>
-                        <p style="font-size: 18px;font-weight: bold;">Precio: $100.00</p>
-                        <p style="font-size: 18px;font-weight: bold;color:#CD1111">Promocion: $50.00</p>
+                        <img class="author_img rounded-circle" src="image/blog/xauthor.png.pagespeed.ic.1A1JgX1vWU.webp" alt="">
+                        <h4># Reservacion001</h4>
+                        <p>Senior blog writer</p>
+                        <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on boot camp when you can get. Boot camps have itssuppor ters andits detractors.</p>
                         <div class="br"></div>
                      </aside>
+                     <aside class="single_sidebar_widget ads_widget">
+                        <a href="#"><img class="img-fluid" src="image/blog/xadd.jpg.pagespeed.ic.cPiWX1WwuT.webp" alt=""></a>
+                        <!-- <div class="br"></div> -->
+                     </aside>
                      <aside class="single_sidebar_widget post_category_widget">
-                        <h4 class="widget_title">Reservar</h4>
+                        <h4 class="widget_title">Detalles Reservacion</h4>
                         <ul class="list_style cat-list">
                            <li>
-                              <div class="input-group">
-                                <select class="form-control">
-                                   <option data-display="Adultos">Adultos</option>
-                                   <option value="1">1</option>
-                                   <option value="2">2</option>
-                                   <option value="3">3</option>
-                                   <option value="4">4</option>
-                                </select>
-                             </div>
-                           </li>
-                           <li>
-                              <div class="input-group">
-                                <select class="form-control">
-                                   <option data-display="Adultos">Niños</option>
-                                   <option value="1">1</option>
-                                   <option value="2">2</option>
-                                   <option value="3">3</option>
-                                   <option value="4">4</option>
-                                </select>
-                             </div>
-                           </li>
-                           <li>
-                              <div class="input-group">
-                                <select class="form-control">
-                                   <option data-display="Adultos">Numero habitaciones</option>
-                                   <option value="1">1</option>
-                                   <option value="2">2</option>
-                                   <option value="3">3</option>
-                                   <option value="4">4</option>
-                                </select>
-                             </div>
-                           </li>
-                           <li>
                               <a href="#" class="d-flex justify-content-between">
-                                 <p style="font-size: 18px;font-weight: bold;">Total :</p>
-                                 <p style="font-size: 18px;font-weight: bold;">$ 100.00</p>
+                                 <p>Adultos</p>
+                                 <p>2</p>
                               </a>
                            </li>
                            <li>
-                              <div class="book_tabel_item">
-                              	<a style="color:white;padding: 5px;border-radius: 5px;" href="#" class="genric-btn info">Agregar Carrito</a>
-                                <a style="color:white;padding: 5px;border-radius: 5px;float: right;" href="#" class="genric-btn primary">Pagar</a>
-                              </div>
+                              <a href="#" class="d-flex justify-content-between">
+                                 <p>Niños</p>
+                                 <p>3</p>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex justify-content-between">
+                                 <p>Habitacion 1</p>
+                                 <p>$ 100.00</p>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex justify-content-between">
+                                 <p>Habitacion 2</p>
+                                 <p>$ 100.00</p>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex justify-content-between">
+                                 <p>Habitacion 3</p>
+                                 <p>$ 100.00</p>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex justify-content-between">
+                                 <p style="font-weight: bold;">TOTAL :</p>
+                                 <p style="font-weight: bold;">$ 300.00</p>
+                              </a>
                            </li>
                         </ul>
                         <!-- <div class="br"></div> -->
+                     </aside>
+                     <div class="comment-form" style="padding-top: 10px;padding-bottom:10px;margin-top: 10px;">
+                        <a href="#" class="primary-btn button_hover">PAGAR</a>
+                     </div>
+                     <aside class="single-sidebar-widget newsletter_widget">
+                        <h4 class="widget_title">Subscribete</h4>
+                        <p>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla non molestiae sequi tempora, aliquid rem.
+                        </p>
+                        <div class="form-group d-flex flex-row">
+                           <div class="input-group">
+                              <div class="input-group-prepend">
+                                 <div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                              </div>
+                              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter email">
+                           </div>
+                           <a href="#" class="bbtns">Subcribe</a>
+                        </div>
+                        <p class="text-bottom">Subscribete para recibir promociones.</p>
+                        <div class="br"></div>
                      </aside>
                   </div>
                </div>
@@ -185,10 +195,10 @@
                      <div class="row">
                         <div class="col-4">
                            <ul class="list_style">
-                              <li><a href="<?= base_url("inicio")?>">Inicio</a></li>
-                              <li><a href="<?= base_url("nosotros")?>">Nosotros</a></li>
-                              <li><a href="<?= base_url("galeria")?>">Galeria</a></li>
-                              <li><a href="<?= base_url("contacto")?>">Contacto</a></li>
+                              <li><a href="<?= base_url('inicio')?>">Inicio</a></li>
+                              <li><a href="<?= base_url('nosotros')?>">Nosotros</a></li>
+                              <li><a href="<?= base_url('galeria')?>">Galeria</a></li>
+                              <li><a href="<?= base_url('contact')?>">Contacto</a></li>
                            </ul>
                         </div>
                      </div>
