@@ -7,6 +7,8 @@
       <title>Gran Hotel Huatulco</title>
       <link rel="stylesheet" href="<?= base_url()?>assets/css/ByHF1rPRTi.css" />
       <link rel="stylesheet" href="<?= base_url()?>assets/css/A.style.css+responsive.css,Mcc.FaCKucbutY.css.pagespeed.cf.ZSOH81SeOh.css" />
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
    </head>
    <body>
       <header class="header_area">
@@ -26,6 +28,7 @@
                      <li class="nav-item"><a class="nav-link" href="<?= base_url("nosotros")?>">Nosotros</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url("galeria")?>">Galeria</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url("contacto")?>">Contacto</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url("contacto")?>">Reservas</a></li>
                   </ul>
                </div>
             </nav>
@@ -57,35 +60,33 @@
                      <div class="col-lg-3  col-md-3">
                         <div class="blog_info text-right">
                            <div class="post_tag">
-                              <a href="#">Food,</a>
-                              <a href="#">Technology,</a>
+                              <a href="#"><strong>Servicios Incluidos</strong></a>
+                              <!-- <a href="#">Technology,</a>
                               <a href="#">Politics,</a>
-                              <a href="#">Lifestyle</a>
+                              <a href="#">Lifestyle</a> -->
                            </div>
                            <ul class="blog_meta list_style">
-                              <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
-                              <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
-                              <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
-                              <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                              <li><a href="#">Wi-Fi gratuita<i class="fa fa-wifi"></i></a></li>
+                              <li><a href="#">TV por cable<i class="fa fa-share-alt"></i></a></li>
+                              <li><a href="#">Baño privado<i class="fa fa-tint"></i></a></li>
+                              <li><a href="#">Pantalla plana<i class="fa fa-tv"></i></a></li>
                            </ul>
                            <ul class="social-links">
                               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fa fa-github"></i></a></li>
-                              <li><a href="#"><i class="fa fa-behance"></i></a></li>
                            </ul>
                         </div>
                      </div>
                      <div class="col-lg-9 col-md-9 blog_details">
-                        <h2>Astronomy Binoculars A Great Alternative</h2>
+                        <h2>Lorem ipsum dolor sit amet consectetur</h2>
                         <p class="excert">
-                           MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.
+                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi similique sequi illo dignissimos, id laboriosam assumenda ipsum. Veritatis earum optio voluptatum iure.
                         </p>
                         <p>
-                           Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed
+                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur neque aut odio sint minus assumenda libero repudiandae odit delectus fugiat ipsa, officia totam voluptatum ut harum expedita numquam illum non!
                         </p>
                         <p>
-                           Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed
+                           Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Eos explicabo dolorem reprehenderit tenetur vel nihil fuga ipsam commodi inventore, ad velit asperiores sint veritatis veniam expedita ea, cumque nam eligendi?
                         </p>
                      </div>
                      <div class="col-lg-12">
@@ -106,79 +107,63 @@
                <div class="col-lg-4">
                   <div class="blog_right_sidebar">
                      <aside class="single_sidebar_widget author_widget">
-                        <h4>Charlie Barber</h4>
-                        <p>Senior blog writer</p>
-                        <div class="social_icon">
-                           <a href="#"><i class="fa fa-facebook"></i></a>
-                           <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                        <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on boot camp when you can get. Boot camps have itssuppor ters andits detractors.</p>
+                        <h4>Lorem ipsum dolor</h4><br>
+                        <p style="color:white;background-color: #248116;border-radius:8px;padding: 5px">1 habitacion disponible</p>
+                        <div class="br"></div>
+                        <p style="font-size: 18px;font-weight: bold;">Precio: $100.00</p>
+                        <p style="font-size: 18px;font-weight: bold;color:#CD1111">Promocion: $50.00</p>
                         <div class="br"></div>
                      </aside>
                      <aside class="single_sidebar_widget post_category_widget">
-                        <h4 class="widget_title">Post Catgories</h4>
+                        <h4 class="widget_title">Reservar</h4>
                         <ul class="list_style cat-list">
                            <li>
-                              <a href="#" class="d-flex justify-content-between">
-                                 <p>Technology</p>
-                                 <p>37</p>
-                              </a>
+                              <div class="input-group">
+                                <select class="form-control">
+                                   <option data-display="Adultos">Adultos</option>
+                                   <option value="1">1</option>
+                                   <option value="2">2</option>
+                                   <option value="3">3</option>
+                                   <option value="4">4</option>
+                                </select>
+                             </div>
+                           </li>
+                           <li>
+                              <div class="input-group">
+                                <select class="form-control">
+                                   <option data-display="Adultos">Niños</option>
+                                   <option value="1">1</option>
+                                   <option value="2">2</option>
+                                   <option value="3">3</option>
+                                   <option value="4">4</option>
+                                </select>
+                             </div>
+                           </li>
+                           <li>
+                              <div class="input-group">
+                                <select class="form-control">
+                                   <option data-display="Adultos">Numero habitaciones</option>
+                                   <option value="1">1</option>
+                                   <option value="2">2</option>
+                                   <option value="3">3</option>
+                                   <option value="4">4</option>
+                                </select>
+                             </div>
                            </li>
                            <li>
                               <a href="#" class="d-flex justify-content-between">
-                                 <p>Lifestyle</p>
-                                 <p>24</p>
+                                 <p style="font-size: 18px;font-weight: bold;">Total :</p>
+                                 <p style="font-size: 18px;font-weight: bold;">$ 100.00</p>
                               </a>
                            </li>
                            <li>
-                              <a href="#" class="d-flex justify-content-between">
-                                 <p>Fashion</p>
-                                 <p>59</p>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#" class="d-flex justify-content-between">
-                                 <p>Art</p>
-                                 <p>29</p>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#" class="d-flex justify-content-between">
-                                 <p>Food</p>
-                                 <p>15</p>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#" class="d-flex justify-content-between">
-                                 <p>Architecture</p>
-                                 <p>09</p>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#" class="d-flex justify-content-between">
-                                 <p>Adventure</p>
-                                 <p>44</p>
-                              </a>
+                              <div class="book_tabel_item">
+                              	<a style="color:white;padding: 5px;border-radius: 5px;" href="#" class="genric-btn info">Agregar Carrito</a>
+                                <a style="color:white;padding: 5px;border-radius: 5px;float: right;" href="#" class="genric-btn primary">Pagar</a>
+                              </div>
                            </li>
                         </ul>
-                        <div class="br"></div>
-                     </aside>
-                     <aside class="single-sidebar-widget tag_cloud_widget">
-                        <h4 class="widget_title">Tag Clouds</h4>
-                        <ul class="list_style">
-                           <li><a href="#">Technology</a></li>
-                           <li><a href="#">Fashion</a></li>
-                           <li><a href="#">Architecture</a></li>
-                           <li><a href="#">Fashion</a></li>
-                           <li><a href="#">Food</a></li>
-                           <li><a href="#">Technology</a></li>
-                           <li><a href="#">Lifestyle</a></li>
-                           <li><a href="#">Art</a></li>
-                           <li><a href="#">Adventure</a></li>
-                           <li><a href="#">Food</a></li>
-                           <li><a href="#">Lifestyle</a></li>
-                           <li><a href="#">Adventure</a></li>
-                        </ul>
+                        <!-- <div class="br"></div> -->
                      </aside>
                   </div>
                </div>

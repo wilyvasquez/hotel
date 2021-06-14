@@ -26,6 +26,7 @@
                      <li class="nav-item"><a class="nav-link" href="<?= base_url("nosotros")?>">Nosotros</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url("galeria")?>">Galeria</a></li>
                      <li class="nav-item active"><a class="nav-link" href="<?= base_url("contacto")?>">Contacto</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url("contacto")?>">Reservas</a></li>
                   </ul>
                </div>
             </nav>
@@ -51,18 +52,18 @@
                   <div class="contact_info">
                      <div class="info_item">
                         <i class="lnr lnr-home"></i>
-                        <h6>California, United States</h6>
-                        <p>Santa monica bullevard</p>
+                        <h6>Lorem ipsum dolor sit</h6>
+                        <p>Lorem ipsum dolor sit, amet, consectetur</p>
                      </div>
                      <div class="info_item">
                         <i class="lnr lnr-phone-handset"></i>
-                        <h6><a href="#">00 (440) 9865 562</a></h6>
+                        <h6><a href="#">+52 (951) 000 0000</a></h6>
                         <p>Mon to Fri 9am to 6 pm</p>
                      </div>
                      <div class="info_item">
                         <i class="lnr lnr-envelope"></i>
-                        <h6><a href="#"><span class="__cf_email__" data-cfemail="91e2e4e1e1fee3e5d1f2fefdfee3fdf8f3bff2fefc">[email&#160;protected]</span></a></h6>
-                        <p>Send us your query anytime!</p>
+                        <h6><a href ="#"><span class="__cf_email__" data-cfemail="91e2e4e1e1fee3e5d1f2fefdfee3fdf8f3bff2fefc">info@granhotelhuatulco.com</span></a></h6>
+                        <p>envianos un correo para mayor informacion!</p>
                      </div>
                   </div>
                </div>
@@ -212,6 +213,5 @@
          
          gtag('config', 'UA-23581568-13');
       </script>
-      <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"65d47b39ecaa7f40","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.5.2","si":10}'></script>
    </body>
 </html>
