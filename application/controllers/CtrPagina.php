@@ -18,6 +18,11 @@ class CtrPagina extends CI_Controller {
 		$this->load->view('pagina/room');
 	}
 
+	public function room_detalles()
+	{
+		$this->load->view('pagina/detalles_room');
+	}
+
 	public function gallery()
 	{
 		$this->load->view('pagina/gallery');

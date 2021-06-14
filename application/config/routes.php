@@ -55,8 +55,9 @@ $route['translate_uri_dashes'] = FALSE;
 
 
 /*------------- PAGINA -------------*/
-$route['inicio']      = 'CtrPagina/index';
-$route['nosotros']    = 'CtrPagina/about';
-$route['rooms']       = 'CtrPagina/room';
-$route['galeria']     = 'CtrPagina/gallery';
-$route['contacto']    = 'CtrPagina/contacto';
+$route['inicio']         = 'CtrPagina/index';
+$route['nosotros']       = 'CtrPagina/about';
+$route['rooms']          = 'CtrPagina/room';
+$route['rooms/detalles'] = 'CtrPagina/room_detalles';
+$route['galeria']        = 'CtrPagina/gallery';
+$route['contacto']       = 'CtrPagina/contacto';
