@@ -100,7 +100,7 @@
                                  </div>
                                  <div class="input-group">
                                     <select class="wide">
-                                       <option data-display="Niños">Niños</option>
+                                       <option data-display="Numero de cuartos">Numero de cuartos</option>
                                        <option value="1">1</option>
                                        <option value="2">2</option>
                                        <option value="3">3</option>
@@ -111,16 +111,7 @@
                            </div>
                            <div class="col-md-4">
                               <div class="book_tabel_item">
-                                 <div class="input-group">
-                                    <select class="wide">
-                                       <option data-display="Numero de cuartos">Numero de cuartos</option>
-                                       <option value="1">1</option>
-                                       <option value="2">2</option>
-                                       <option value="3">3</option>
-                                       <option value="4">4</option>
-                                    </select>
-                                 </div>
-                                 <a class="book_now_btn button_hover" href="#">Reservar ahora</a>
+                                 <a class="book_now_btn button_hover" href="<?= base_url("rooms")?>">Reservar ahora</a>
                               </div>
                            </div>
                         </div>

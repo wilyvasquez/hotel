@@ -13,9 +13,9 @@ class CtrPagina extends CI_Controller {
 		$this->load->view('pagina/about');
 	}
 
-	public function accomodation()
+	public function room()
 	{
-		$this->load->view('pagina/accomodation');
+		$this->load->view('pagina/room');
 	}
 
 	public function gallery()
