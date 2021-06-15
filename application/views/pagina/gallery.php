@@ -5,15 +5,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="icon" href="image/xfavicon.png.pagespeed.ic.6C2XCbExx3.webp" type="image/png">
       <title>Gran Hotel Huatulco</title>
-      <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.css">
-      <link rel="stylesheet" href="<?=base_url()?>assets/vendors/linericon/style.css">
-      <link rel="stylesheet" href="<?=base_url()?>assets/css/font-awesome.min.css">
-      <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap-datetimepicker.min.css">
-      <link rel="stylesheet" href="<?=base_url()?>assets/css/nice-select.css">
-      <link rel="stylesheet" href="<?=base_url()?>assets/css/owl.carousel.min.css">
-      <link rel="stylesheet" href="<?=base_url()?>assets/css/simpleLightbox.css">
-      <link rel="stylesheet" href="<?=base_url()?>assets/css/style.css">
-      <link rel="stylesheet" href="<?=base_url()?>assets/css/responsive.css">
+      <link rel="stylesheet" href="<?= base_url()?>assets/css/ByHF1rPRTi.css" />
+      <link rel="stylesheet" href="<?= base_url()?>assets/css/A.style.css+responsive.css,Mcc.FaCKucbutY.css.pagespeed.cf.ZSOH81SeOh.css" />
    </head>
    <body>
       <header class="header_area">
@@ -215,18 +208,16 @@
          </div>
       </footer>
       <script src="<?=base_url()?>assets/js/jquery-3.2.1.min.js"></script>
-      <script src="<?=base_url()?>assets/js/popper.js"></script>
-      <script src="<?=base_url()?>assets/js/bootstrap.min.js"></script>
-      <script src="<?=base_url()?>assets/js/owl.carousel.min.js"></script>
-      <script src="<?=base_url()?>assets/js/jquery.ajaxchimp.min.js"></script>
-      <script src="<?=base_url()?>assets/js/bootstrap-datetimepicker.min.js"></script>
-      <script src="<?=base_url()?>assets/js/jquery.nice-select.js"></script>
-      <script src="<?=base_url()?>assets/js/mail-script.js"></script>
-      <script src="<?=base_url()?>assets/js/stellar.js"></script>
-      <script src="<?=base_url()?>assets/js/imagesloaded.pkgd.min.js"></script>
-      <script src="<?=base_url()?>assets/js/isotope-min.js"></script>
-      <script src="<?=base_url()?>assets/js/stellar.js"></script>
-      <script src="<?=base_url()?>assets/js/simpleLightbox.min.js"></script>
-      <script src="<?=base_url()?>assets/js/custom.js"></script>
+      <script src="<?=base_url()?>assets/js/pagar.js"></script>
+      <script src="<?=base_url()?>assets/js/popper.js+bootstrap.min.js.pagespeed.jc.aCxZ2lnAlx.js"></script><script>eval(mod_pagespeed_I6KtiD7z$f);</script>
+      <script>eval(mod_pagespeed_ahg32vMnoq);</script>
+      <script src="<?=base_url()?>assets/js/vendors,_owl-carousel,_owl.carousel.min.js+js,_jquery.ajaxchimp.min.js+vendors,_bootstrap-datepicker,_bootstrap-datetimepicker.min.js.pagespeed.jc.nY7ajS0bWh.js"></script><script>eval(mod_pagespeed_h7GKHGEK1v);</script>
+      <script>eval(mod_pagespeed_ZATASJnIPG);</script>
+      <script>eval(mod_pagespeed_2ztf1$Bl2v);</script>
+      <script src="<?=base_url()?>assets/js/vendors,_nice-select,_js,_jquery.nice-select.js+js,_mail-script.js+js,_stellar.js+vendors,_lightbox,_simpleLightbox.min.js+js,_custom.js.pagespeed.jc.AAP_0Kq5Mn.js"></script><script>eval(mod_pagespeed_uxfKmGsidu);</script>
+      <script>eval(mod_pagespeed_FTxQKjBzoX);</script>
+      <script>eval(mod_pagespeed_1HnhX9dQmn);</script>
+      <script>eval(mod_pagespeed_0kuCaTpNCH);</script>
+      <script>eval(mod_pagespeed_fcz4pZ0TRV);</script>
    </body>
 </html>

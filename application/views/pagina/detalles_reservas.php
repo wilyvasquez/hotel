@@ -80,36 +80,31 @@
                            </div>
                            <div class="col-lg-12 mt-25">
                               <p>
-                                 MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower.
+                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem excepturi delectus fugit labore incidunt amet beatae sit, enim molestiae dolore hic nobis omnis quasi doloribus laboriosam blanditiis molestias accusamus culpa.
                               </p>
                               <p>
-                                 MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower.
+                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, quae ut nulla quis suscipit eos corporis deleniti laboriosam modi, inventore, molestias quasi, possimus! Quasi quis vero quas ea, repellendus omnis..
                               </p>
                            </div>
                         </div>
                      </div>
                   </div>
-                  <!-- <div class="single-post row">
-                     <img src="<?= base_url()?>assets/image/mastercard.png" style="width:60px" alt="">
-                     <img src="<?= base_url()?>assets/image/visa.png" style="width:60px;margin-left: 5px;" alt="">
-                     <img src="<?= base_url()?>assets/image/paypal.png" style="width:60px;margin-left: 5px;" alt="">
-                  </div> -->
                   <div class="comment-form">
                      <h4>Contactanos para mayor informacion</h4>
                      <form>
                         <div class="form-group form-inline">
                            <div class="form-group col-lg-6 col-md-6 name">
-                              <input type="text" class="form-control" id="name" placeholder="Nombre" >
+                              <input type="text" class="form-control" id="name" placeholder="Nombre" style="border: 1px solid #E2DFDF;border-radius: 5px;">
                            </div>
                            <div class="form-group col-lg-6 col-md-6 email">
-                              <input type="email" class="form-control" id="email" placeholder="Direccion de correo">
+                              <input type="email" class="form-control" id="email" placeholder="Direccion de correo" style="border: 1px solid #E2DFDF;border-radius: 5px;">
                            </div>
                         </div>
                         <div class="form-group">
-                           <input type="text" class="form-control" id="subject" placeholder="Asunto">
+                           <input type="text" class="form-control" id="subject" placeholder="Asunto" style="border: 1px solid #E2DFDF;border-radius: 5px;">
                         </div>
                         <div class="form-group">
-                           <textarea class="form-control mb-10" rows="5" name="message" placeholder="Mensaje" required></textarea>
+                           <textarea class="form-control mb-10" rows="5" name="message" placeholder="Mensaje" required style="border: 1px solid #E2DFDF;border-radius: 5px;"></textarea>
                         </div>
                         <a href="#" class="primary-btn button_hover">Enviar</a>
                      </form>
@@ -125,50 +120,52 @@
                         <img src="<?= base_url()?>assets/image/paypal.png" style="width:60px;margin-left: 5px;" alt="">
                         <div class="br"></div>
                      </aside>
-                     <aside class="single_sidebar_widget post_category_widget">
-                        <h4 class="widget_title">Detalles Reservacion</h4>
-                        <ul class="list_style cat-list">
-                           <li>
-                              <a href="#" class="d-flex justify-content-between">
-                                 <p>Adultos</p>
-                                 <p>2</p>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#" class="d-flex justify-content-between">
-                                 <p>Niños</p>
-                                 <p>3</p>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#" class="d-flex justify-content-between">
-                                 <p>Habitacion 1</p>
-                                 <p>$ 100.00</p>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#" class="d-flex justify-content-between">
-                                 <p>Habitacion 2</p>
-                                 <p>$ 100.00</p>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#" class="d-flex justify-content-between">
-                                 <p>Habitacion 3</p>
-                                 <p>$ 100.00</p>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#" class="d-flex justify-content-between">
-                                 <p style="font-weight: bold;">TOTAL :</p>
-                                 <p style="font-weight: bold;">$ 300.00</p>
-                              </a>
-                           </li>
-                        </ul>
-                        <!-- <div class="br"></div> -->
-                     </aside>
-                     <div class="comment-form" style="padding-top: 10px;padding-bottom:10px;margin-top: 10px;">
-                        <a href="#" class="primary-btn button_hover">PAGAR</a>
+                     <div id="vistaPago">
+                        <aside class="single_sidebar_widget post_category_widget">
+                           <h4 class="widget_title">Detalles Reservacion</h4>
+                           <ul class="list_style cat-list">
+                              <li>
+                                 <a href="#" class="d-flex justify-content-between">
+                                    <p>Adultos</p>
+                                    <p>2</p>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" class="d-flex justify-content-between">
+                                    <p>Niños</p>
+                                    <p>3</p>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" class="d-flex justify-content-between">
+                                    <p>Habitacion 1</p>
+                                    <p>$ 100.00</p>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" class="d-flex justify-content-between">
+                                    <p>Habitacion 2</p>
+                                    <p>$ 100.00</p>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" class="d-flex justify-content-between">
+                                    <p>Habitacion 3</p>
+                                    <p>$ 100.00</p>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" class="d-flex justify-content-between">
+                                    <p style="font-weight: bold;">TOTAL :</p>
+                                    <p style="font-weight: bold;">$ 300.00</p>
+                                 </a>
+                              </li>
+                           </ul> 
+                           <!-- <div class="br"></div> -->
+                        </aside>
+                        <div class="comment-form" style="padding-top: 10px;padding-bottom:10px;margin-top: 10px;">
+                           <a href="#" class="primary-btn button_hover" id="btn_siguiente">Siguiente</a>
+                        </div>
                      </div>
                      <aside class="single-sidebar-widget newsletter_widget">
                         <h4 class="widget_title">Subscribete</h4>
@@ -258,19 +255,12 @@
                </div>
             </div>
          </div>
-      </footer> 
-      <div id="modal">
-        <div class="modal-content">
-          <div class="header">
-            <h2>Modal Header</h2>
-          </div>
-          <div class="copy">
-            <p>Modal Body</p>
-            <a href="#">Close Link</a> </div>
-        </div>
-        <div class="overlay"></div>
-      </div>  
+      </footer>  
+      <script type="text/javascript">
+        var baseurl = "<?php echo base_url(); ?>";
+      </script>
       <script src="<?=base_url()?>assets/js/jquery-3.2.1.min.js"></script>
+      <script src="<?=base_url()?>assets/js/pagar.js"></script>
       <script src="<?=base_url()?>assets/js/popper.js+bootstrap.min.js.pagespeed.jc.aCxZ2lnAlx.js"></script><script>eval(mod_pagespeed_I6KtiD7z$f);</script>
       <script>eval(mod_pagespeed_ahg32vMnoq);</script>
       <script src="<?=base_url()?>assets/js/vendors,_owl-carousel,_owl.carousel.min.js+js,_jquery.ajaxchimp.min.js+vendors,_bootstrap-datepicker,_bootstrap-datetimepicker.min.js.pagespeed.jc.nY7ajS0bWh.js"></script><script>eval(mod_pagespeed_h7GKHGEK1v);</script>

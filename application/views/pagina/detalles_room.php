@@ -145,7 +145,7 @@
                            <li>
                               <div class="input-group">
                                 <select class="form-control">
-                                   <option data-display="Adultos">Niños</option>
+                                   <option data-display="Niños">Niños</option>
                                    <option value="1">1</option>
                                    <option value="2">2</option>
                                    <option value="3">3</option>
@@ -156,7 +156,7 @@
                            <li>
                               <div class="input-group">
                                 <select class="form-control">
-                                   <option data-display="Adultos">Numero habitaciones</option>
+                                   <option data-display="Mumero habitaciones">Numero habitaciones</option>
                                    <option value="1">1</option>
                                    <option value="2">2</option>
                                    <option value="3">3</option>
