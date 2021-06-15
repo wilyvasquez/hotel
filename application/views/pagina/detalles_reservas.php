@@ -39,7 +39,7 @@
                </button>
                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                   <ul class="nav navbar-nav menu_nav ml-auto">
-                     <li class="nav-item active"><a class="nav-link" href="<?= base_url('inicio')?>">Inicio</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url('inicio')?>">Inicio</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('nosotros')?>">Nosotros</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('galeria')?>">Galeria</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('contacto')?>">Contacto</a></li>
@@ -168,8 +168,7 @@
                         <!-- <div class="br"></div> -->
                      </aside>
                      <div class="comment-form" style="padding-top: 10px;padding-bottom:10px;margin-top: 10px;">
-                        <a href="#openModal" class="primary-btn button_hover">PAGAR</a>
-                        <a href="#modal">Launch A Modal</a>
+                        <a href="#" class="primary-btn button_hover">PAGAR</a>
                      </div>
                      <aside class="single-sidebar-widget newsletter_widget">
                         <h4 class="widget_title">Subscribete</h4>
@@ -271,7 +270,16 @@
         </div>
         <div class="overlay"></div>
       </div>  
-      <script src="<?= base_url()?>assets/js/jquery-3.2.1.min.js"></script>
-      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+      <script src="<?=base_url()?>assets/js/jquery-3.2.1.min.js"></script>
+      <script src="<?=base_url()?>assets/js/popper.js+bootstrap.min.js.pagespeed.jc.aCxZ2lnAlx.js"></script><script>eval(mod_pagespeed_I6KtiD7z$f);</script>
+      <script>eval(mod_pagespeed_ahg32vMnoq);</script>
+      <script src="<?=base_url()?>assets/js/vendors,_owl-carousel,_owl.carousel.min.js+js,_jquery.ajaxchimp.min.js+vendors,_bootstrap-datepicker,_bootstrap-datetimepicker.min.js.pagespeed.jc.nY7ajS0bWh.js"></script><script>eval(mod_pagespeed_h7GKHGEK1v);</script>
+      <script>eval(mod_pagespeed_ZATASJnIPG);</script>
+      <script>eval(mod_pagespeed_2ztf1$Bl2v);</script>
+      <script src="<?=base_url()?>assets/js/vendors,_nice-select,_js,_jquery.nice-select.js+js,_mail-script.js+js,_stellar.js+vendors,_lightbox,_simpleLightbox.min.js+js,_custom.js.pagespeed.jc.AAP_0Kq5Mn.js"></script><script>eval(mod_pagespeed_uxfKmGsidu);</script>
+      <script>eval(mod_pagespeed_FTxQKjBzoX);</script>
+      <script>eval(mod_pagespeed_1HnhX9dQmn);</script>
+      <script>eval(mod_pagespeed_0kuCaTpNCH);</script>
+      <script>eval(mod_pagespeed_fcz4pZ0TRV);</script>
    </body>
 </html>
