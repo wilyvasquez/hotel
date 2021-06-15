@@ -35,7 +35,10 @@
 		      data: formData,
 		      cache: false,
 		      contentType: false,
-		      processData: false
+		      processData: false,
+		      beforeSend: function() {
+			      $("#vistaPago").html('Sera redireccionado al formulario de pago, espere...<br><br><br>');
+			   },
 		    }).done(function(response){
 		    	window.location.replace(response);
 		    });

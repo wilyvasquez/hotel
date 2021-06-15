@@ -52,6 +52,26 @@ class CtrPagina extends CI_Controller {
 		$this->load->view("pagina/formularioReservacion");
 	}
 
+	public function pago_realizado()
+	{
+		$id = $this->input->get("id");
+		if (!empty($id)) {
+			$cargo = $this->validarCargo($id);
+
+			if ($cargo == "completed") {
+				$img  = "pago_exitoso.png";
+				$data = array(
+					'status' => $cargo, 
+					'cargo'  => date("Y-m-d H:i:s"), 
+				);
+			}else{
+				$img = "Error.png";
+			}
+			$data["img"] = $img;
+			$this->load->view("pagina/pago_realizado",$data);
+		}
+	}
+
 	public function pago()
 	{
 		$titular   = $this->input->post("titular");
@@ -61,36 +81,70 @@ class CtrPagina extends CI_Controller {
 
 		$openpay = Openpay::getInstance('mnrbr41kikxabgldmh7s', 'sk_3655d46a8ca74bd5a7d4b2f37e5de594');
 		$customer = array(
-		     'name' => $titular,
-		     'last_name' => $apellidos,
-		     'phone_number' => $telefono,
-		     'email' => $correo
+			'name'         => $titular,
+			'last_name'    => $apellidos,
+			'phone_number' => $telefono,
+			'email'        => $correo
 		);
+		// $datos = $this->crearClienteOpenpay($customer);
 
 		$chargeRequest = array(
-		    "method" => "card",
-		    'amount' => 1234,
-		    'description' => 'Cargo por reservacion de habitacion',
-		    'customer' => $customer,
-		    'send_email' => false,
-		    'confirm' => false,
-		    'redirect_url' => 'http://localhost/hotel/')
+			"method"         => "card",
+			'amount'         => 123,
+			'description'    => 'Cargo por reservacion de habitacion',
+			'customer'       => $customer,
+			'send_email'     => false,
+			'confirm'        => false,
+			'redirect_url'   => 'http://localhost/hotel/transaccion/')
 		;
 
-		$charge = $openpay->charges->create($chargeRequest);
+		// $customer = $openpay->customers->get($datos);
+		$charge   = $openpay->charges->create($chargeRequest);
 
 		echo $charge->serializableData["payment_method"]->url;
 	}
 
-	public function validarpago()
+	public function validarCargo($id)
+	{
+		$status = "Error";
+		if (!empty($id)) {
+			$openpay = Openpay::getInstance('mnrbr41kikxabgldmh7s', 'sk_3655d46a8ca74bd5a7d4b2f37e5de594');
+			$charge  = $openpay->charges->get($id);
+			$status  = $charge->status;
+		}
+
+		return $status;
+		// $customer = $openpay->customers->get("afdwr8etk1f7qo58mryp");
+		// $payout   = $customer->charges->get("trjzoozae2sbejpwcauo");
+
+		// echo "<pre>";
+		// print_r($charge->status);
+		// echo "</pre";
+	}
+
+	public function crearClienteOpenpay($data)
 	{
 		$openpay = Openpay::getInstance('mnrbr41kikxabgldmh7s', 'sk_3655d46a8ca74bd5a7d4b2f37e5de594');
 
-		$customer = $openpay->customers->get('2lzzhsurnc9e');
-		$payout = $customer->payouts->get('tr2lzzhsurnc9eublae8');
+		$customerData = array(
+			'external_id'      => date("YmdHis"),
+			'name'             => $data["name"],
+			'last_name'        => $data["last_name"],
+			'email'            => $data["email"],
+			'requires_account' => false,
+			'phone_number'     => $data["phone_number"],
+			'address'          => array(
+				'line1'        => 'aqui',
+				'line2'        => 'aqui',
+				'line3'        => '',
+				'state'        => 'Oaxaca',
+				'city'         => 'Mexico',
+				'postal_code'  => '68000',
+				'country_code' => 'MX'
+			)
+	   );
 
-		echo "<pre>";
-		print_r($payout);
-		echo "</pre";
+		$customer = $openpay->customers->add($customerData);
+		return $customer->id;
 	}
 }

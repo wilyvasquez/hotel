@@ -62,3 +62,4 @@ $route['rooms/detalles']   = 'CtrPagina/room_detalles';
 $route['galeria']          = 'CtrPagina/gallery';
 $route['contacto']         = 'CtrPagina/contacto';
 $route['reserva/detalles'] = 'CtrPagina/reservas_detalles';
+$route['transaccion']      = 'CtrPagina/pago_realizado';

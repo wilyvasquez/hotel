@@ -122,9 +122,10 @@
                   <div class="blog_right_sidebar">
                      <aside class="single_sidebar_widget author_widget">
                         <h4>Lorem ipsum dolor</h4><br>
-                        <p style="color:white;background-color: #248116;border-radius:8px;padding: 5px">1 habitacion disponible</p>
-                        <div class="br"></div>
-                        <p style="font-size: 18px;font-weight: bold;">Precio: $100.00</p>
+                        <h4 class="widget_title" style="color:white;background-color:#248116">1 habitacion disponible</h4>
+                        <!-- <p style="color:white;background-color: #248116;border-radius:8px;padding: 5px">1 habitacion disponible</p> -->
+                        <!-- <div class="br"></div> -->
+                         <h4 style="margin-top: 10px;">Precio: $100.00</h4>
                         <p style="font-size: 18px;font-weight: bold;color:#CD1111">Promocion: $50.00</p>
                         <div class="br"></div>
                      </aside>
@@ -156,7 +157,7 @@
                            <li>
                               <div class="input-group">
                                 <select class="form-control">
-                                   <option data-display="Mumero habitaciones">Numero habitaciones</option>
+                                   <option data-display="Numero de habitaciones">Numero de habitaciones</option>
                                    <option value="1">1</option>
                                    <option value="2">2</option>
                                    <option value="3">3</option>
@@ -165,20 +166,36 @@
                              </div>
                            </li>
                            <li>
+                              <div class='input-group date' id='datetimepicker11'>
+                                 <input type='text' class="form-control" placeholder="Fecha llegada" />
+                                 <span class="input-group-addon">
+                                 <i class="fa fa-calendar" aria-hidden="true"></i>
+                                 </span>
+                              </div>
+                           </li>
+                           <li>
+                              <div class='input-group date' id='datetimepicker1'>
+                                 <input type='text' class="form-control" placeholder="Fecha salida" />
+                                 <span class="input-group-addon">
+                                 <i class="fa fa-calendar" aria-hidden="true"></i>
+                                 </span>
+                              </div>
+                           </li>
+                           <li>
                               <a href="#" class="d-flex justify-content-between">
                                  <p style="font-size: 18px;font-weight: bold;">Total :</p>
                                  <p style="font-size: 18px;font-weight: bold;">$ 100.00</p>
                               </a>
-                           </li>
-                           <li>
-                              <div class="book_tabel_item">
-                              	<a style="color:white;padding: 5px;border-radius: 5px;" href="#" class="genric-btn info">Agregar Carrito</a>
-                                <a style="color:white;padding: 5px;border-radius: 5px;float: right;" href="#" class="genric-btn primary">Pagar</a>
-                              </div>
-                           </li>
+                           </li>                           
                         </ul>
                         <!-- <div class="br"></div> -->
                      </aside>
+                     <div>
+                        <div class="book_tabel_item"><br>
+                           <a style="color:white;border-radius: 5px;" href="#" class="genric-btn info">Agregar</a>
+                          <a style="color:white;border-radius: 5px;float: right;" href="<?= base_url('reserva/detalles')?>" class="genric-btn primary">Pagar</a>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>

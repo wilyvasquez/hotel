@@ -100,7 +100,7 @@
                                  </div>
                                  <div class="input-group">
                                     <select class="wide">
-                                       <option data-display="Numero de cuartos">Numero de cuartos</option>
+                                       <option data-display="Niños">Niños</option>
                                        <option value="1">1</option>
                                        <option value="2">2</option>
                                        <option value="3">3</option>
@@ -132,7 +132,7 @@
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom1.jpg" alt="">
-                        <a href="<?= base_url("rooms")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum</h4>
@@ -144,7 +144,7 @@
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom2.jpg" alt="">
-                        <a href="<?= base_url("rooms")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum</h4>
@@ -156,7 +156,7 @@
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom3.jpg" alt="">
-                        <a href="<?= base_url("rooms")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum</h4>
@@ -168,7 +168,7 @@
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom4.jpg" alt="">
-                        <a href="<?= base_url("rooms")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum</h4>

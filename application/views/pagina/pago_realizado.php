@@ -65,131 +65,15 @@
       <section class="blog_area single-post-area">
          <div class="container">
             <div class="row">
-               <div class="col-lg-8 posts-list">
-                  <div class="single-post row">
-                     <div class="col-lg-12">
-                        <div class="row">
-                           <div class="col-4">
-                              <img class="img-fluid" src="<?= base_url('assets/image/xroom4.jpg')?>" alt="">
-                           </div>
-                           <div class="col-4">
-                              <img class="img-fluid" src="<?= base_url('assets/image/xroom2.jpg')?>" alt="">
-                           </div>
-                           <div class="col-4">
-                              <img class="img-fluid" src="<?= base_url('assets/image/xroom2.jpg')?>" alt="">
-                           </div>
-                           <div class="col-lg-12 mt-25">
-                              <p>
-                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem excepturi delectus fugit labore incidunt amet beatae sit, enim molestiae dolore hic nobis omnis quasi doloribus laboriosam blanditiis molestias accusamus culpa.
-                              </p>
-                              <p>
-                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, quae ut nulla quis suscipit eos corporis deleniti laboriosam modi, inventore, molestias quasi, possimus! Quasi quis vero quas ea, repellendus omnis..
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="comment-form">
-                     <h4>Contactanos para mayor informacion</h4>
-                     <form>
-                        <div class="form-group form-inline">
-                           <div class="form-group col-lg-6 col-md-6 name">
-                              <input type="text" class="form-control" id="name" placeholder="Nombre" style="border: 1px solid #E2DFDF;border-radius: 5px;">
-                           </div>
-                           <div class="form-group col-lg-6 col-md-6 email">
-                              <input type="email" class="form-control" id="email" placeholder="Direccion de correo" style="border: 1px solid #E2DFDF;border-radius: 5px;">
-                           </div>
-                        </div>
-                        <div class="form-group">
-                           <input type="text" class="form-control" id="subject" placeholder="Asunto" style="border: 1px solid #E2DFDF;border-radius: 5px;">
-                        </div>
-                        <div class="form-group">
-                           <textarea class="form-control mb-10" rows="5" name="message" placeholder="Mensaje" required style="border: 1px solid #E2DFDF;border-radius: 5px;"></textarea>
-                        </div>
-                        <a href="#" class="primary-btn button_hover">Enviar</a>
-                     </form>
-                  </div>
-               </div>
-               <div class="col-lg-4">
-                  <div class="blog_right_sidebar">
-                     <aside class="single_sidebar_widget author_widget">
-                        <h4># Reservacion001</h4>
-                        <p>Metodos de pago</p><br>
-                        <img src="<?= base_url()?>assets/image/mastercard.png" style="width:60px" alt="">
-                        <img src="<?= base_url()?>assets/image/visa.png" style="width:60px;margin-left: 5px;" alt="">
-                        <img src="<?= base_url()?>assets/image/openpay.png" style="width:120px;margin-left: 5px;" alt="">
-                        <img src="<?= base_url()?>assets/image/american.jpg" style="width:40px;margin-left: 5px;" alt="">
-                        <img src="<?= base_url()?>assets/image/Carnet.png" style="width:56px;margin-left: 5px;" alt="">
-                        <img src="<?= base_url()?>assets/image/Citibanamex-logo.png" style="width:100px;margin-left: 5px;" alt="">
-                        <img src="<?= base_url()?>assets/image/security.png" style="width:40px;margin-left: 5px;" alt="">
-                        <div class="br"></div>
-                     </aside>
-                     <div id="vistaPago">
-                        <aside class="single_sidebar_widget post_category_widget">
-                           <h4 class="widget_title">Detalles Reservacion</h4>
-                           <ul class="list_style cat-list">
-                              <li>
-                                 <a href="#" class="d-flex justify-content-between">
-                                    <p>Adultos</p>
-                                    <p>2</p>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="#" class="d-flex justify-content-between">
-                                    <p>Niños</p>
-                                    <p>3</p>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="#" class="d-flex justify-content-between">
-                                    <p>Habitacion 1</p>
-                                    <p>$ 100.00</p>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="#" class="d-flex justify-content-between">
-                                    <p>Habitacion 2</p>
-                                    <p>$ 100.00</p>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="#" class="d-flex justify-content-between">
-                                    <p>Habitacion 3</p>
-                                    <p>$ 100.00</p>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="#" class="d-flex justify-content-between">
-                                    <p style="font-weight: bold;">TOTAL :</p>
-                                    <p style="font-weight: bold;">$ 300.00</p>
-                                 </a>
-                              </li>
-                           </ul> 
-                           <!-- <div class="br"></div> -->
-                        </aside>
-                        <div class="comment-form" style="padding-top: 10px;padding-bottom:10px;margin-top: 10px;">
-                           <a href="#" class="primary-btn button_hover" id="btn_siguiente">Siguiente</a>
-                        </div>
-                     </div>
-                     <aside class="single-sidebar-widget newsletter_widget">
-                        <h4 class="widget_title">Subscribete</h4>
-                        <p>
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla non molestiae sequi tempora, aliquid rem.
-                        </p>
-                        <div class="form-group d-flex flex-row">
-                           <div class="input-group">
-                              <div class="input-group-prepend">
-                                 <div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                              </div>
-                              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Escribe tu correo">
-                           </div>
-                           <a href="#" class="bbtns">Subcribe</a>
-                        </div>
-                        <p class="text-bottom">Subscribete para recibir promociones.</p>
-                        <div class="br"></div>
-                     </aside>
-                  </div>
-               </div>
+               <aside class="single_sidebar_widget author_widget">
+                  <center><img src="<?= base_url('assets/image/'.$img)?>" style="width: 400px;" alt=""><br></center>
+                  <p><br>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem excepturi delectus fugit labore incidunt amet beatae sit, enim molestiae dolore hic nobis omnis quasi doloribus laboriosam blanditiis molestias accusamus culpa.
+                  </p>
+                  <p>
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, quae ut nulla quis suscipit eos corporis deleniti laboriosam modi, inventore, molestias quasi, possimus! Quasi quis vero quas ea, repellendus omnis..
+                  </p>
+               </aside>
             </div>
          </div>
       </section>
