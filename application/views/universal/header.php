@@ -13,7 +13,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- AdminLTE Skins -->
   <link rel="stylesheet" href="<?= base_url() ?>assets/admin-lte/css/_all-skins.min.css">
-  <!-- Pace style -->
+  <!-- DataTables -->
+  <link rel="stylesheet" href="<?= base_url() ?>assets/admin-lte/css/dataTables.bootstrap.min.css">
+  <!-- Pace style-->
   <link rel="stylesheet" href="<?= base_url() ?>assets/admin-lte/css/pace.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?= base_url() ?>assets/admin-lte/css/AdminLTE.min.css">
