@@ -77,7 +77,7 @@
                            </div>
                            <div class="col-4">
                               <img class="img-fluid" src="<?= base_url('assets/image/xroom2.jpg')?>" alt="">
-                           </div>
+                           </div>                           
                            <div class="col-lg-12 mt-25">
                               <p>
                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem excepturi delectus fugit labore incidunt amet beatae sit, enim molestiae dolore hic nobis omnis quasi doloribus laboriosam blanditiis molestias accusamus culpa.
@@ -90,6 +90,26 @@
                      </div>
                   </div>
                   <div class="comment-form">
+                     <h4>Actualizar Reservacion</h4>
+                     <form>
+                        <div class="form-group form-inline">
+                           <div class="form-group col-lg-6 col-md-6 name">
+                              <p>Adultos:</p>
+                              <input type="number" class="form-control" id="name" placeholder="Adultos" style="border: 1px solid #E2DFDF;border-radius: 5px;">
+                           </div>
+                           <div class="form-group col-lg-6 col-md-6 email">
+                              <p>Niños:</p>
+                              <input type="number" class="form-control" id="email" placeholder="Niños" style="border: 1px solid #E2DFDF;border-radius: 5px;">
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <p>Numero de habitaciones:</p>
+                           <input type="number" class="form-control" id="subject" placeholder="Numero de habitaciones" style="border: 1px solid #E2DFDF;border-radius: 5px;">
+                        </div>
+                        <a href="#" class="primary-btn button_hover">Actualizar</a>
+                     </form>
+                  </div>
+                  <!-- <div class="comment-form">
                      <h4>Contactanos para mayor informacion</h4>
                      <form>
                         <div class="form-group form-inline">
@@ -108,7 +128,7 @@
                         </div>
                         <a href="#" class="primary-btn button_hover">Enviar</a>
                      </form>
-                  </div>
+                  </div> -->
                </div>
                <div class="col-lg-4">
                   <div class="blog_right_sidebar">

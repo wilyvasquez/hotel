@@ -53,8 +53,8 @@
                <div class="banner_content text-center">
                   <h6>LEJOS DE LA VIDA MONÓTONA</h6>
                   <h2>Relaja tu mente</h2>
-                  <p>Déjese consentir y disfrute de un paraíso, somos un espacio recreativo pensado para sus hijos y familiares para una estancia confortable.</p>
-                  <a href="#" class="btn theme_btn button_hover">Get Started</a>
+                  <p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Dolorem, odio ex, nulla omnis culpa id, distinctio ullam voluptatem quaerat hic porro? Fugit omnis molestias nihil aliquam pariatur quam doloribus, atque..</p>
+                  <!-- <a href="#" class="btn theme_btn button_hover">Get Started</a> -->
                </div>
             </div>
          </div>
@@ -111,7 +111,18 @@
                            </div>
                            <div class="col-md-4">
                               <div class="book_tabel_item">
-                                 <a class="book_now_btn button_hover" href="<?= base_url("rooms")?>">Reservar ahora</a>
+                                 <div class="input-group">
+                                    <select class="wide">
+                                       <option data-display="Numero de habitaciones">Numero de habitaciones</option>
+                                       <option value="1">1</option>
+                                       <option value="2">2</option>
+                                       <option value="3">3</option>
+                                       <option value="4">4</option>
+                                    </select>
+                                 </div>
+                              </div>
+                              <div class="book_tabel_item">
+                                 <a class="book_now_btn button_hover" href="<?= base_url("reserva/detalles")?>">Reservar ahora</a>
                               </div>
                            </div>
                         </div>
@@ -132,48 +143,48 @@
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom1.jpg" alt="">
-                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum</h4>
                      </a>
-                     <h5>$250<small>/noche</small></h5>
+                     <!-- <h5>$250<small>/noche</small></h5> -->
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom2.jpg" alt="">
-                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum</h4>
                      </a>
-                     <h5>$200<small>/noche</small></h5>
+                     <!-- <h5>$200<small>/noche</small></h5> -->
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom3.jpg" alt="">
-                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum</h4>
                      </a>
-                     <h5>$750<small>/noche</small></h5>
+                     <!-- <h5>$750<small>/noche</small></h5> -->
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom4.jpg" alt="">
-                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum</h4>
                      </a>
-                     <h5>$200<small>/noche</small></h5>
+                     <!-- <h5>$200<small>/noche</small></h5> -->
                   </div>
                </div>
             </div>

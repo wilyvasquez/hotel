@@ -69,36 +69,36 @@
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom1.jpg" alt="">
-                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum dolor sit</h4>
                      </a>
-                     <h5>$250<small>/noche</small></h5>
+                     <!-- <h5>$250<small>/noche</small></h5> -->
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom2.jpg" alt="">
-                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum dolor sit</h4>
                      </a>
-                     <h5>$200<small>/noche</small></h5>
+                     <!-- <h5>$200<small>/noche</small></h5> -->
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom3.jpg" alt="">
-                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum dolor sit</h4>
                      </a>
-                     <h5>$750<small>/noche</small></h5>
+                     <!-- <h5>$750<small>/noche</small></h5> -->
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
@@ -110,55 +110,55 @@
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum dolor sit</h4>
                      </a>
-                     <h5>$200<small>/noche</small></h5>
+                     <!-- <h5>$200<small>/noche</small></h5> -->
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom1.jpg" alt="">
-                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum dolor sit</h4>
                      </a>
-                     <h5>$250<small>/noche</small></h5>
+                     <!-- <h5>$250<small>/noche</small></h5> -->
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom2.jpg" alt="">
-                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Single Deluxe Room</h4>
                      </a>
-                     <h5>$200<small>/noche</small></h5>
+                     <!-- <h5>$200<small>/noche</small></h5> -->
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom3.jpg" alt="">
-                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum dolor sit</h4>
                      </a>
-                     <h5>$750<small>/noche</small></h5>
+                     <!-- <h5>$750<small>/noche</small></h5> -->
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom4.jpg" alt="">
-                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
+                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum dolor sit</h4>
                      </a>
-                     <h5>$200<small>/noche</small></h5>
+                     <!-- <h5>$200<small>/noche</small></h5> -->
                   </div>
                </div>
             </div>
