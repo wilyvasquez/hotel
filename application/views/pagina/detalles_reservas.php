@@ -176,16 +176,19 @@
                         <p>
                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla non molestiae sequi tempora, aliquid rem.
                         </p>
-                        <div class="form-group d-flex flex-row">
-                           <div class="input-group">
-                              <div class="input-group-prepend">
-                                 <div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                        <form id="formSuscribete">
+                           <div class="form-group d-flex flex-row">
+                              <div class="input-group">
+                                 <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                 </div>
+                                 <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Escribe tu correo">
                               </div>
-                              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Escribe tu correo">
-                           </div>
-                           <a href="#" class="bbtns">Subcribe</a>
-                        </div>
+                              <a type="submit" href="#" class="bbtns">Subcribe</a>
+                           </div>                           
+                        </form>
                         <p class="text-bottom">Subscribete para recibir promociones.</p>
+                        <div id="msg_correo"></div>
                         <div class="br"></div>
                      </aside>
                   </div>

@@ -147,4 +147,49 @@ class CtrPagina extends CI_Controller {
 		$customer = $openpay->customers->add($customerData);
 		return $customer->id;
 	}
+
+	public function correo($correo)
+	{
+		$this->load->library('email');
+
+        $config = array(
+            "protocol"  => 'smtp',
+            "smtp_host" => 'mail.gran-hotel-huatulco.com',
+            "smtp_user" => 'info@gran-hotel-huatulco.com',
+            "smtp_pass" => 'info.granhotelhuatulco',   
+            "smtp_port" => '587',
+            "charset"   => 'utf-8',
+            "wordwrap"  => TRUE,
+            "validate"  => true
+        ); 
+        $subject = 'Gran Hotel Huatulco';
+        // $data    = array(
+        //     'nombre' => $nombre,
+        //     'title'  => $title,
+        //     'texto'  => $texto 
+        // );
+        // $msg = $this->load->view('admin/correo/correo', $data, true);
+        $msg = "hola mundo";
+
+        $this->email
+            ->from("info@gran-hotel-huatulco.com")
+            ->to($correo)
+            ->subject($subject)
+            ->message($msg)
+            // ->set_mailtype('html')
+            ->send();
+
+        if($this->email->send()){
+        	return "success";
+        }else{
+			return "error";
+        }
+
+	}
+
+	public function agregarSuscribe()
+	{
+		$correo = $this->input->post("email");
+		echo $dato   = $this->correo($correo);
+	}
 }

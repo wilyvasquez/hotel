@@ -58,10 +58,10 @@
             </div>
          </div>
       </section>
-      <section class="contact_area section_gap">
+      <section class="contact_area section_gap" style="padding-top: 50px;">
          <div class="container">
-            <div id="mapBox" class="mapBox" data-lat="40.701083" data-lon="-74.1522848" data-zoom="13" data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia." data-mlat="40.701083" data-mlon="-74.1522848"></div>
-            <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d784.2127352226069!2d-96.13850898343318!3d15.768403154585181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x154fae1ed5065864!2sGran%20Hotel%20Huatulco!5e0!3m2!1ses!2smx!4v1623801255227!5m2!1ses!2smx" width="600" height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy"></iframe>
+            <div class="row"><br>
                <div class="col-md-3">
                   <div class="contact_info">
                      <div class="info_item">
@@ -133,15 +133,15 @@
                </div>
                <div class="col-lg-3 col-md-6 col-sm-6">
                   <div class="single-footer-widget">
-                     <h6 class="footer_title">Subscribete</h6>
+                     <h6 class="footer_title">Suscribete</h6>
                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Quisquam quidem fugiat soluta ad </p>
                      <div id="mc_embed_signup">
-                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" class="subscribe_form relative">
+                        <form action="#" class="subscribe_form relative">
                            <div class="input-group d-flex flex-row">
-                              <input name="EMAIL" placeholder="Direccion de correo" required type="email">
-                              <button class="btn sub-btn"><span class="lnr lnr-location"></span></button>
+                              <input name="email" placeholder="Direccion de correo" required type="email">
+                              <button type="submit" class="btn sub-btn"><span class="lnr lnr-location"></span></button>
                            </div>
-                           <div class="mt-10 info"></div>
+                           <div id="msg_correo"></div>
                         </form>
                      </div>
                   </div>
@@ -174,7 +174,7 @@
             </div>
          </div>
       </footer>
-      <div id="success" class="modal modal-message fade" role="dialog">
+      <!-- <div id="success" class="modal modal-message fade" role="dialog">
          <div class="modal-dialog">
             <div class="modal-content">
                <div class="modal-header">
@@ -199,7 +199,7 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
       <script src="<?=base_url()?>assets/js/jquery-3.2.1.min.js"></script>
       <script src="<?=base_url()?>assets/js/popper.js"></script>
       <script src="<?=base_url()?>assets/js/bootstrap.min.js"></script>
@@ -219,13 +219,6 @@
       <script src="<?=base_url()?>assets/js/jquery.validate.min.js"></script>
       <script src="<?=base_url()?>assets/js/contact.js"></script>
       <script src="<?=base_url()?>assets/js/custom.js"></script>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         
-         gtag('config', 'UA-23581568-13');
-      </script>
+      <script src="<?=base_url()?>assets/js/correos.js"></script>
    </body>
 </html>
