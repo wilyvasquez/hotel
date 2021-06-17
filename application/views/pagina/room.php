@@ -69,7 +69,7 @@
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom1.jpg" alt="">
-                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
+                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum dolor sit</h4>
@@ -81,7 +81,7 @@
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom2.jpg" alt="">
-                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
+                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum dolor sit</h4>
@@ -93,7 +93,7 @@
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom3.jpg" alt="">
-                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
+                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum dolor sit</h4>
@@ -117,7 +117,7 @@
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom1.jpg" alt="">
-                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
+                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum dolor sit</h4>
@@ -129,7 +129,7 @@
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom2.jpg" alt="">
-                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
+                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Single Deluxe Room</h4>
@@ -141,7 +141,7 @@
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom3.jpg" alt="">
-                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
+                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum dolor sit</h4>
@@ -153,7 +153,7 @@
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
                         <img src="<?=base_url()?>assets/image/xroom4.jpg" alt="">
-                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
+                        <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a>
                      </div>
                      <a href="#">
                         <h4 class="sec_h4">Lorem ipsum dolor sit</h4>
@@ -203,7 +203,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-sm-6">
+               <!-- <div class="col-lg-3 col-md-6 col-sm-6">
                   <div class="single-footer-widget instafeed">
                      <h6 class="footer_title">InstaFeed</h6>
                      <ul class="list_style instafeed d-flex flex-wrap">
@@ -217,7 +217,7 @@
                         <li><img src="<?=base_url()?>assets/image/instagram/xImage-08.jpg" alt=""></li>
                      </ul>
                   </div>
-               </div>
+               </div> -->
             </div>
             <div class="border_line"></div>
             <div class="row footer-bottom d-flex justify-content-between align-items-center">

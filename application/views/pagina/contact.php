@@ -60,14 +60,14 @@
       </section>
       <section class="contact_area section_gap" style="padding-top: 50px;">
          <div class="container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d784.2127352226069!2d-96.13850898343318!3d15.768403154585181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x154fae1ed5065864!2sGran%20Hotel%20Huatulco!5e0!3m2!1ses!2smx!4v1623801255227!5m2!1ses!2smx" width="600" height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d784.2127352226069!2d-96.13850898343318!3d15.768403154585181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x154fae1ed5065864!2sGran%20Hotel%20Huatulco!5e0!3m2!1ses!2smx!4v1623801255227!5m2!1ses!2smx" width="600" height="450" style="border:0.5;width:100%" allowfullscreen="" loading="lazy"></iframe>
             <div class="row"><br>
                <div class="col-md-3">
-                  <div class="contact_info">
+                  <div class="contact_info"><br>
                      <div class="info_item">
                         <i class="lnr lnr-home"></i>
-                        <h6>Lorem ipsum dolor sit</h6>
-                        <p>Lorem ipsum dolor sit, amet, consectetur</p>
+                        <h6>Calle carrizal 1406 Col. Sector H</h6>
+                        <p>Crucecita Santa Maria Huatulco</p>
                      </div>
                      <div class="info_item">
                         <i class="lnr lnr-phone-handset"></i>
@@ -83,7 +83,7 @@
                </div>
                <div class="col-md-9">
                   <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate>
-                     <div class="col-md-6">
+                     <div class="col-md-6"><br>
                         <div class="form-group">
                            <input type="text" class="form-control" id="name" name="name" placeholder="Escribe tu nombre">
                         </div>
@@ -94,7 +94,7 @@
                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Escribe tu asunto">
                         </div>
                      </div>
-                     <div class="col-md-6">
+                     <div class="col-md-6"><br>
                         <div class="form-group">
                            <textarea class="form-control" name="message" id="message" rows="1" placeholder="Escribe tu mensaje"></textarea>
                         </div>
@@ -146,7 +146,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-sm-6">
+               <!-- <div class="col-lg-3 col-md-6 col-sm-6">
                   <div class="single-footer-widget instafeed">
                      <h6 class="footer_title">InstaFeed</h6>
                      <ul class="list_style instafeed d-flex flex-wrap">
@@ -160,7 +160,7 @@
                         <li><img src="<?=base_url()?>assets/image/instagram/xImage-08.jpg" alt=""></li>
                      </ul>
                   </div>
-               </div>
+               </div> -->
             </div>
             <div class="border_line"></div>
             <div class="row footer-bottom d-flex justify-content-between align-items-center">

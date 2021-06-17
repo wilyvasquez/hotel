@@ -122,7 +122,7 @@
                                  </div>
                               </div>
                               <div class="book_tabel_item">
-                                 <a class="book_now_btn button_hover" href="<?= base_url("reserva/detalles")?>">Reservar ahora</a>
+                                 <a class="book_now_btn button_hover" href="<?= base_url("rooms")?>">Reservar ahora</a>
                               </div>
                            </div>
                         </div>
@@ -142,7 +142,7 @@
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
-                        <img src="<?=base_url()?>assets/image/xroom1.jpg" alt="">
+                        <img src="<?=base_url()?>assets/image/habitaciones/room_1.jpg" alt="">
                         <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
@@ -154,7 +154,7 @@
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
-                        <img src="<?=base_url()?>assets/image/xroom2.jpg" alt="">
+                        <img src="<?=base_url()?>assets/image/habitaciones/room_2.jpg" alt="">
                         <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
@@ -166,7 +166,7 @@
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
-                        <img src="<?=base_url()?>assets/image/xroom3.jpg" alt="">
+                        <img src="<?=base_url()?>assets/image/habitaciones/room_3.jpg" alt="">
                         <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
@@ -178,7 +178,31 @@
                <div class="col-lg-3 col-sm-6">
                   <div class="accomodation_item text-center">
                      <div class="hotel_img">
-                        <img src="<?=base_url()?>assets/image/xroom4.jpg" alt="">
+                        <img src="<?=base_url()?>assets/image/habitaciones/room_4.jpg" alt="">
+                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
+                     </div>
+                     <a href="#">
+                        <h4 class="sec_h4">Lorem ipsum</h4>
+                     </a>
+                     <!-- <h5>$200<small>/noche</small></h5> -->
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <div class="accomodation_item text-center">
+                     <div class="hotel_img">
+                        <img src="<?=base_url()?>assets/image/habitaciones/room_5.jpg" alt="">
+                        <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
+                     </div>
+                     <a href="#">
+                        <h4 class="sec_h4">Lorem ipsum</h4>
+                     </a>
+                     <!-- <h5>$200<small>/noche</small></h5> -->
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <div class="accomodation_item text-center">
+                     <div class="hotel_img">
+                        <img src="<?=base_url()?>assets/image/habitaciones/room_6.jpg" alt="">
                         <!-- <a href="<?= base_url("rooms/detalles")?>" class="btn theme_btn button_hover">Reservar</a> -->
                      </div>
                      <a href="#">
@@ -206,7 +230,7 @@
                </div>
                <div class="col-lg-4 col-md-6">
                   <div class="facilities_item">
-                     <h4 class="sec_h4"><i class="lnr lnr-bicycle"></i>Sports club</h4>
+                     <h4 class="sec_h4"><i class="lnr lnr-bicycle"></i>Wifi</h4>
                      <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                   </div>
                </div>
@@ -218,22 +242,22 @@
                </div>
                <div class="col-lg-4 col-md-6">
                   <div class="facilities_item">
-                     <h4 class="sec_h4"><i class="lnr lnr-car"></i>Ranta de carro</h4>
+                     <h4 class="sec_h4"><i class="lnr lnr-car"></i>Estacionamiento</h4>
                      <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-6">
                   <div class="facilities_item">
-                     <h4 class="sec_h4"><i class="lnr lnr-construction"></i>Gimnasio</h4>
+                     <h4 class="sec_h4"><i class="lnr lnr-construction"></i>Aire acondicionado</h4>
                      <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                   </div>
                </div>
-               <div class="col-lg-4 col-md-6">
+               <!-- <div class="col-lg-4 col-md-6">
                   <div class="facilities_item">
                      <h4 class="sec_h4"><i class="lnr lnr-coffee-cup"></i>Bar</h4>
                      <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                   </div>
-               </div>
+               </div> -->
             </div>
          </div>
       </section>
@@ -248,7 +272,7 @@
                   </div>
                </div>
                <div class="col-md-6">
-                  <img class="img-fluid" src="<?=base_url()?>assets/image/xabout_bg.jpg" alt="img">
+                  <img class="img-fluid" src="<?=base_url()?>assets/image/about.jpg" alt="img">
                </div>
             </div>
          </div>
@@ -337,7 +361,7 @@
                <div class="col-lg-4 col-md-6">
                   <div class="single-recent-blog-post">
                      <div class="thumb">
-                        <img class="img-fluid" src="<?=base_url()?>assets/image/blog/xblog-1.jpg" alt="post">
+                        <img class="img-fluid" src="<?=base_url()?>assets/image/blog/xblog-3.png" alt="post">
                      </div>
                      <div class="details">
                         <div class="tags">
@@ -373,7 +397,7 @@
                <div class="col-lg-4 col-md-6">
                   <div class="single-recent-blog-post">
                      <div class="thumb">
-                        <img class="img-fluid" src="<?=base_url()?>assets/image/blog/xblog-3.jpg" alt="post">
+                        <img class="img-fluid" src="<?=base_url()?>assets/image/blog/xblog-4.png" alt="post">
                      </div>
                      <div class="details">
                         <div class="tags">
@@ -430,7 +454,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-sm-6">
+               <!-- <div class="col-lg-3 col-md-6 col-sm-6">
                   <div class="single-footer-widget instafeed">
                      <h6 class="footer_title">InstaFeed</h6>
                      <ul class="list_style instafeed d-flex flex-wrap">
@@ -444,7 +468,7 @@
                         <li><img src="<?=base_url()?>assets/image/instagram/xImage-08.jpg" alt=""></li>
                      </ul>
                   </div>
-               </div>
+               </div> -->
             </div>
             <div class="border_line"></div>
             <div class="row footer-bottom d-flex justify-content-between align-items-center">

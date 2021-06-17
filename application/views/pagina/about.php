@@ -69,7 +69,7 @@
                   </div>
                </div>
                <div class="col-md-6">
-                  <img class="img-fluid" src="<?=base_url()?>assets/image/xabout_bg.jpg" alt="img">
+                  <img class="img-fluid" src="<?=base_url()?>assets/image/about.jpg" alt="img">
                </div>
             </div>
          </div>
@@ -234,7 +234,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-sm-6">
+               <!-- <div class="col-lg-3 col-md-6 col-sm-6">
                   <div class="single-footer-widget instafeed">
                      <h6 class="footer_title">InstaFeed</h6>
                      <ul class="list_style instafeed d-flex flex-wrap">
@@ -248,7 +248,7 @@
                         <li><img src="<?=base_url()?>assets/image/instagram/xImage-08.jpg" alt=""></li>
                      </ul>
                   </div>
-               </div>
+               </div> -->
             </div>
             <div class="border_line"></div>
             <div class="row footer-bottom d-flex justify-content-between align-items-center">
